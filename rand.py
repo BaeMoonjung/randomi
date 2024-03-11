@@ -29,7 +29,7 @@ randomization_group = []
 
 if paralle1 == 1:
     for i in range(int(participant_n)):
-        s = "R" + str(101+i)
+        s = "R" + str(1001+i)
         randomization_n.append(s)    
 
     # 시험군 수에 따른 그룹 설정    
@@ -63,10 +63,10 @@ if paralle1 == 1:
 
 if paralle1 == 2:
     for i in range(int(participant_n/2)):
-        s = "R" + str(101+i)
+        s = "R" + str(1001+i)
         randomization_n.append(s)
     for i in range(int(participant_n/2)):
-        s = "R" + str(201+i)
+        s = "R" + str(2001+i)
         randomization_n.append(s)
 
     # 시험군 수에 따른 그룹 설정          
